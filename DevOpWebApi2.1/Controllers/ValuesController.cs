@@ -14,14 +14,14 @@ namespace DevOpWebApi2._1.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Test Value 1", "Test Value 2" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "The person on id " + id.ToString() + "is Amit";
         }
 
         // POST api/values
