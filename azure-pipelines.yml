@@ -15,6 +15,7 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+<<<<<<< HEAD
 
 
 - task: DotNetCoreCLI@2
@@ -28,3 +29,5 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
+=======
+>>>>>>> 3c779155a0cfb9f145afa7278a6a6ed4c1258c57
