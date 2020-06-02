@@ -21,7 +21,8 @@ namespace DevOpWebApi2._1.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "The person on id " + id.ToString() + "is Amit";
+            return "The person on id " + id.ToString() "is Amit";
+            
         }
 
         // POST api/values
