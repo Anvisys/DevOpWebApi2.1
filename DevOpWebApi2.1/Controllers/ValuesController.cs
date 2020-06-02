@@ -14,7 +14,7 @@ namespace DevOpWebApi2._1.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Test Value 1", "Test Value 2" };
+            return new string[] { "Test Value 1", "Test Value 2", "Test Value 3" };
         }
 
         // GET api/values/5
